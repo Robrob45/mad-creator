@@ -32,14 +32,14 @@ span{
     font-size: 30px;
     color: var(--text-color);
     font-weight: 700;
-    display:flex:block;
+    display:flexbox;
     padding: auto;
     opacity: 60%;
     backdrop-filter: blur(35px);
 }
 
 #banner{
-    background: linear-gradient(rgba(0,0,0,0.5),#009688), url(Image/eyo.jpeg);
+    background: linear-gradient(rgba(0,0,0,0.5),#009688), url(Image/barber.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -100,12 +100,17 @@ span{
 }
 nav ul li{
     list-style: none;
-    margin: 50px 20px;
+    margin: 40px 20px;
 
 }
 nav ul li a{
     text-decoration: none;
     color: #fff;
+    line-height: 6.0;
+    margin: 40px, 40px;
+}
+nav ul li a:hover{
+    color: black;
 }
 #menuBtn{
     width: 50px;
@@ -304,7 +309,8 @@ hr{
         margin-bottom: 30px;
     }
     .Service-desc p{
-        font-size: 10px; 
+        font-size: 10px;
+        margin-bottom: -30px; 
     }
     .Single-service:hover .Service-desc{
         bottom: 25% !important;
@@ -350,7 +356,7 @@ hr{
     margin-right: 20px;
     border-radius: 3px;
 }
-.user-info .ri{
+.user-info .bx{
     margin-left: 10px;
     color: #27c0ff;
     font-size: 20px;
